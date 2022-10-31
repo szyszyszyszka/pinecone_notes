@@ -1,0 +1,417 @@
+/* Extra fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* ------------------------------------------------------ */
+/* Constant styles no matter screen resolution */
+body
+{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 100vh;
+}
+/* ------------------------------------------------------ */
+/* Responsive styles */
+
+/* Desktop */
+@media (min-width: 1024px)
+{
+    #title
+    {
+        font-size: 30px;
+        text-align: left;
+        font-weight: bolder;
+        float: left;
+    }
+    #username_display
+    {
+        font-size: 15px;
+        text-align: right;
+        overflow: hidden;
+        font-style: italic;
+    }
+    #log_out
+    {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 17px;
+    }
+    #log_out:hover
+    {
+        color: red;
+    }
+    header
+    {
+        margin-bottom: 25px;
+    }
+    .category_buttons
+    {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .category_buttons:hover
+    {
+        color: darkgoldenrod;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    #add_category_button:hover
+    {
+        color:chocolate;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    #displaying_categories
+    {
+        margin-bottom: 10px;
+    }
+    #add_category_input
+    {
+        font-family: 'Noto sans','sans-serif';
+        font-size: 15px;
+        border-style: solid;
+        width: 150px;
+        height: 20px;
+        border-color: rgb(253, 224, 181);
+        border-radius: 6px;
+    }
+    #add_category_input:focus
+    {
+        
+        height: 30px;
+    }
+    #add_category_input::placeholder
+    {
+        font-family: 'Noto sans','sans-serif';
+        font-size: 13px;
+        color: rgb(47, 47, 47);
+        font-style: italic;
+    }
+    #delete_category_button
+    {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    #delete_category_button:hover
+    {
+        color:red;
+        text-decoration: underline;
+    }
+    #categories
+    {
+        float: left;
+        height: 100%;
+        width: 20%;
+    }
+    #notes
+    {
+        width: 75%;
+        padding-left: 5px;
+        padding-top: 5px;
+        height: 100%;
+        overflow: hidden;
+    }
+    .notes_input
+    {
+        font-family: 'Noto sans','sans-serif';
+        font-size: 13px;
+        border-style: solid;
+        border-radius: 6px;
+        width: 95%;
+        height: auto;
+        resize: vertical;
+    }
+    .note_manipulation
+    {
+        width: 96%;
+        text-align: right;
+    }
+    .note_manipulation_buttons 
+    {
+        font-size: 15px;
+        border-style: none;
+        background: none;
+    }
+    .note_manipulation_buttons:hover
+    {
+        cursor: pointer;
+        color: brown;
+        font-size: 17px
+    } 
+}
+
+/* Laptops, tablets, bigger smartphones etc. */
+@media (min-width: 900px) and (max-width: 1024px)
+{
+    #title
+    {
+        font-size: 30px;
+        text-align: left;
+        font-weight: bolder;
+        float: left;
+    }
+    #username_display
+    {
+        font-size: 15px;
+        text-align: right;
+        overflow: hidden;
+        font-style: italic;
+    }
+    #log_out
+    {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 17px;
+    }
+    #log_out:hover
+    {
+        color: red;
+    }
+    header
+    {
+        margin-bottom: 25px;
+    }
+    .category_buttons
+    {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .category_buttons:hover
+    {
+        color: darkgoldenrod;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    #add_category_button:hover
+    {
+        color:chocolate;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    #displaying_categories
+    {
+        margin-bottom: 10px;
+    }
+    #add_category_input
+    {
+        font-family: 'Noto sans','sans-serif';
+        font-size: 15px;
+        border-style: solid;
+        width: 150px;
+        height: 20px;
+        border-color: rgb(253, 224, 181);
+        border-radius: 6px;
+    }
+    #add_category_input:focus
+    {
+        
+        height: 30px;
+    }
+    #add_category_input::placeholder
+    {
+        font-family: 'Noto sans','sans-serif';
+        font-size: 13px;
+        color: rgb(47, 47, 47);
+        font-style: italic;
+    }
+    #delete_category_button
+    {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    #delete_category_button:hover
+    {
+        color:red;
+        text-decoration: underline;
+    }
+    #categories
+    {
+        float: left;
+        height: 100%;
+        width: 20%;
+    }
+    #notes
+    {
+        width: 75%;
+        padding-left: 5px;
+        padding-top: 5px;
+        height: 100%;
+        overflow: hidden;
+    }
+    .notes_input
+    {
+        font-family: 'Noto sans','sans-serif';
+        font-size: 13px;
+        border-style: solid;
+        border-radius: 6px;
+        width: 95%;
+        height: auto;
+        resize: vertical;
+    }
+    .note_manipulation
+    {
+        width: 96%;
+        text-align: right;
+    }
+    .note_manipulation_buttons 
+    {
+        font-size: 15px;
+        border-style: none;
+        background: none;
+    }
+    .note_manipulation_buttons:hover
+    {
+        cursor: pointer;
+        color: brown;
+        font-size: 17px
+    } 
+}
+
+/* Smartphones */
+@media (max-width: 900px)
+{
+    #title
+    {
+        font-size: 30px;
+        text-align: left;
+        font-weight: bolder;
+        float: left;
+    }
+    #username_display
+    {
+        font-size: 15px;
+        text-align: right;
+        overflow: hidden;
+        font-style: italic;
+    }
+    #log_out
+    {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 17px;
+    }
+    #log_out:hover
+    {
+        color: red;
+    }
+    header
+    {
+        margin-bottom: 25px;
+    }
+    .category_buttons
+    {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .category_buttons:hover
+    {
+        color: darkgoldenrod;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    #add_category_button:hover
+    {
+        color:chocolate;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    #displaying_categories
+    {
+        margin-bottom: 10px;
+    }
+    #add_category_input
+    {
+        font-family: 'Noto sans','sans-serif';
+        font-size: 15px;
+        border-style: solid;
+        width: 150px;
+        height: 30px;
+        border-color: rgb(253, 224, 181);
+        border-radius: 6px;
+    }
+    /*#add_category_input:focus
+    {
+        height: 40px;
+    }*/
+    #add_category_input::placeholder
+    {
+        font-family: 'Noto sans','sans-serif';
+        font-size: 13px;
+        color: rgb(47, 47, 47);
+        font-style: italic;
+    }
+    #delete_category_button
+    {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    #delete_category_button:hover
+    {
+        color:red;
+        text-decoration: underline;
+    }
+    #categories
+    {
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #notes
+    {
+        width: 100%;
+        padding-left: 5px;
+        padding-top: 5px;
+        height: 100%;
+        text-align: center;
+    }
+    .notes_input
+    {
+        font-family: 'Noto sans','sans-serif';
+        font-size: 13px;
+        border-style: solid;
+        border-radius: 6px;
+        width: 95%;
+        height: auto;
+        resize: vertical;
+    }
+    .note_manipulation
+    {
+        width: 96%;
+        text-align: right;
+    }
+    .note_manipulation_buttons 
+    {
+        font-size: 15px;
+        border-style: none;
+        background: none;
+    }
+    .note_manipulation_buttons:hover
+    {
+        cursor: pointer;
+        color: brown;
+        font-size: 17px
+    } 
+}
+/* ------------------------------------------------------ */

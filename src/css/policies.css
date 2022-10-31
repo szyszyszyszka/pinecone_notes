@@ -1,0 +1,35 @@
+/* Extra fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* ------------------------------------------------------ */
+
+/* Constant styles no matter screen resolution */
+body
+{
+    background-color: rgb(21, 21, 21);
+    color:azure;
+    font-family: 'Noto sans';
+    font-size: large;
+}
+h1
+{
+    text-align: center;
+    font-size: 45px;
+}
+#first_paragraph, #line
+{
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+    color:rgb(255, 0, 0);
+}
+a:hover
+{
+    color:rgb(255, 153, 0);
+}
+main
+{
+    padding: 30px;
+}
+/* ------------------------------------------------------ */
