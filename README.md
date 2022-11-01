@@ -14,5 +14,5 @@ Features that will be added:
   - account dashboard (with option to modify username and delete account)
   - number of signs at the bottom of textarea note field
   - encrypting user categories
-  - alert about loggin error on main webiste
-  - alert about registration error on main website
+  - alert about loggin error on main webiste (for now it's only redirecting to a main page without displaying a clear error)
+  - alert about registration error on main website (for now it's only redirecting to a main page without displaying a clear error)
