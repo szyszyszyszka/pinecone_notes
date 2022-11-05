@@ -529,7 +529,6 @@ body
         font-size: 30px;
         font-weight: bold;
         text-align: center;
-        opacity: 0;
     }
     article > .brief_header
     {
@@ -537,7 +536,6 @@ body
         font-size: 25px;
         font-weight: bold;
         margin-left: 3px;
-        opacity: 0;
     }
     article > .brief_descriptions
     {
@@ -546,7 +544,6 @@ body
         font-weight: lighter;
         margin-left: 3px;
         font-size: small;
-        opacity: 0;
     }
     .brief_descriptions > a
     {
