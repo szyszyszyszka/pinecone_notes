@@ -23,10 +23,6 @@ $(document).ready(function(){
         $(".brief_introduction").css("animation-name","appering");
         $(".brief_introduction").css("animation-duration","1s");
         
-        $(".brief_header").css("opacity","1");
-        $(".brief_descriptions").css("opacity","1");
-        $(".brief_introduction").css("opacity","1");
-        
         $('#banner').waypoint('destroy');
     });
     /*-----------------------------------------------------------*/
